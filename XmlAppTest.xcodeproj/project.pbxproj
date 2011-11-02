@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD3772E9144805B100E1DD37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3772E8144805B100E1DD37 /* UIKit.framework */; };
+		DD3772EB144805B100E1DD37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3772EA144805B100E1DD37 /* Foundation.framework */; };
+		DD3772ED144805B100E1DD37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3772EC144805B100E1DD37 /* CoreGraphics.framework */; };
+		DD3772F3144805B100E1DD37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD3772F1144805B100E1DD37 /* InfoPlist.strings */; };
+		DD3772F5144805B100E1DD37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3772F4144805B100E1DD37 /* main.m */; };
+		DD3772F9144805B100E1DD37 /* XmlAppTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3772F8144805B100E1DD37 /* XmlAppTestAppDelegate.m */; };
+		DD3772FC144805B100E1DD37 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD3772FA144805B100E1DD37 /* MainWindow.xib */; };
+		DD3772FF144805B100E1DD37 /* XmlAppTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3772FE144805B100E1DD37 /* XmlAppTestViewController.m */; };
+		DD377302144805B100E1DD37 /* XmlAppTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD377300144805B100E1DD37 /* XmlAppTestViewController.xib */; };
+		DD37732014480ABE00E1DD37 /* hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD37731F14480ABE00E1DD37 /* hotel.m */; };
+		DD377323144812E500E1DD37 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DD377322144812E500E1DD37 /* XMLParser.m */; };
+		DD37732C1448224B00E1DD37 /* mainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD37732A1448224B00E1DD37 /* mainTableViewController.m */; };
+		DD37732D1448224B00E1DD37 /* mainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD37732B1448224B00E1DD37 /* mainTableViewController.xib */; };
+		DDF74CAC144E66860000B3BC /* detailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF74CAA144E66860000B3BC /* detailTableViewController.m */; };
+		DDF74CAD144E66860000B3BC /* detailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF74CAB144E66860000B3BC /* detailTableViewController.xib */; };
+		DDF74CF2144E803B0000B3BC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF74CF1144E803B0000B3BC /* MapKit.framework */; };
+		DDF74CF6144E83B90000B3BC /* MapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF74CF5144E83B90000B3BC /* MapViewAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD3772E4144805B100E1DD37 /* XmlAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XmlAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3772E8144805B100E1DD37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD3772EA144805B100E1DD37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD3772EC144805B100E1DD37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD3772F0144805B100E1DD37 /* XmlAppTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XmlAppTest-Info.plist"; sourceTree = "<group>"; };
+		DD3772F2144805B100E1DD37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD3772F4144805B100E1DD37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD3772F6144805B100E1DD37 /* XmlAppTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XmlAppTest-Prefix.pch"; sourceTree = "<group>"; };
+		DD3772F7144805B100E1DD37 /* XmlAppTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XmlAppTestAppDelegate.h; sourceTree = "<group>"; };
+		DD3772F8144805B100E1DD37 /* XmlAppTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XmlAppTestAppDelegate.m; sourceTree = "<group>"; };
+		DD3772FB144805B100E1DD37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DD3772FD144805B100E1DD37 /* XmlAppTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XmlAppTestViewController.h; sourceTree = "<group>"; };
+		DD3772FE144805B100E1DD37 /* XmlAppTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XmlAppTestViewController.m; sourceTree = "<group>"; };
+		DD377301144805B100E1DD37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XmlAppTestViewController.xib; sourceTree = "<group>"; };
+		DD37731E14480ABE00E1DD37 /* hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hotel.h; sourceTree = "<group>"; };
+		DD37731F14480ABE00E1DD37 /* hotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hotel.m; sourceTree = "<group>"; };
+		DD377321144812E500E1DD37 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		DD377322144812E500E1DD37 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		DD3773291448224B00E1DD37 /* mainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mainTableViewController.h; path = ../mainTableViewController.h; sourceTree = "<group>"; };
+		DD37732A1448224B00E1DD37 /* mainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mainTableViewController.m; path = ../mainTableViewController.m; sourceTree = "<group>"; };
+		DD37732B1448224B00E1DD37 /* mainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = mainTableViewController.xib; path = ../mainTableViewController.xib; sourceTree = "<group>"; };
+		DDF74CA9144E66860000B3BC /* detailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailTableViewController.h; sourceTree = "<group>"; };
+		DDF74CAA144E66860000B3BC /* detailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailTableViewController.m; sourceTree = "<group>"; };
+		DDF74CAB144E66860000B3BC /* detailTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = detailTableViewController.xib; sourceTree = "<group>"; };
+		DDF74CF1144E803B0000B3BC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DDF74CF4144E83B90000B3BC /* MapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewAnnotation.h; sourceTree = "<group>"; };
+		DDF74CF5144E83B90000B3BC /* MapViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewAnnotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD3772E1144805B100E1DD37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF74CF2144E803B0000B3BC /* MapKit.framework in Frameworks */,
+				DD3772E9144805B100E1DD37 /* UIKit.framework in Frameworks */,
+				DD3772EB144805B100E1DD37 /* Foundation.framework in Frameworks */,
+				DD3772ED144805B100E1DD37 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD3772D9144805B000E1DD37 = {
+			isa = PBXGroup;
+			children = (
+				DD3772EE144805B100E1DD37 /* XmlAppTest */,
+				DD3772E7144805B100E1DD37 /* Frameworks */,
+				DD3772E5144805B100E1DD37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD3772E5144805B100E1DD37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD3772E4144805B100E1DD37 /* XmlAppTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD3772E7144805B100E1DD37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDF74CF1144E803B0000B3BC /* MapKit.framework */,
+				DD3772E8144805B100E1DD37 /* UIKit.framework */,
+				DD3772EA144805B100E1DD37 /* Foundation.framework */,
+				DD3772EC144805B100E1DD37 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD3772EE144805B100E1DD37 /* XmlAppTest */ = {
+			isa = PBXGroup;
+			children = (
+				DDF74CF4144E83B90000B3BC /* MapViewAnnotation.h */,
+				DDF74CF5144E83B90000B3BC /* MapViewAnnotation.m */,
+				DD377321144812E500E1DD37 /* XMLParser.h */,
+				DD377322144812E500E1DD37 /* XMLParser.m */,
+				DD37731E14480ABE00E1DD37 /* hotel.h */,
+				DD37731F14480ABE00E1DD37 /* hotel.m */,
+				DDF74CA9144E66860000B3BC /* detailTableViewController.h */,
+				DDF74CAA144E66860000B3BC /* detailTableViewController.m */,
+				DDF74CAB144E66860000B3BC /* detailTableViewController.xib */,
+				DD3773291448224B00E1DD37 /* mainTableViewController.h */,
+				DD37732A1448224B00E1DD37 /* mainTableViewController.m */,
+				DD37732B1448224B00E1DD37 /* mainTableViewController.xib */,
+				DD3772F7144805B100E1DD37 /* XmlAppTestAppDelegate.h */,
+				DD3772F8144805B100E1DD37 /* XmlAppTestAppDelegate.m */,
+				DD3772FA144805B100E1DD37 /* MainWindow.xib */,
+				DD3772FD144805B100E1DD37 /* XmlAppTestViewController.h */,
+				DD3772FE144805B100E1DD37 /* XmlAppTestViewController.m */,
+				DD377300144805B100E1DD37 /* XmlAppTestViewController.xib */,
+				DD3772EF144805B100E1DD37 /* Supporting Files */,
+			);
+			path = XmlAppTest;
+			sourceTree = "<group>";
+		};
+		DD3772EF144805B100E1DD37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD3772F0144805B100E1DD37 /* XmlAppTest-Info.plist */,
+				DD3772F1144805B100E1DD37 /* InfoPlist.strings */,
+				DD3772F4144805B100E1DD37 /* main.m */,
+				DD3772F6144805B100E1DD37 /* XmlAppTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD3772E3144805B100E1DD37 /* XmlAppTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD377305144805B100E1DD37 /* Build configuration list for PBXNativeTarget "XmlAppTest" */;
+			buildPhases = (
+				DD3772E0144805B100E1DD37 /* Sources */,
+				DD3772E1144805B100E1DD37 /* Frameworks */,
+				DD3772E2144805B100E1DD37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XmlAppTest;
+			productName = XmlAppTest;
+			productReference = DD3772E4144805B100E1DD37 /* XmlAppTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD3772DB144805B000E1DD37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DD3772DE144805B000E1DD37 /* Build configuration list for PBXProject "XmlAppTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD3772D9144805B000E1DD37;
+			productRefGroup = DD3772E5144805B100E1DD37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD3772E3144805B100E1DD37 /* XmlAppTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD3772E2144805B100E1DD37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3772F3144805B100E1DD37 /* InfoPlist.strings in Resources */,
+				DD3772FC144805B100E1DD37 /* MainWindow.xib in Resources */,
+				DD377302144805B100E1DD37 /* XmlAppTestViewController.xib in Resources */,
+				DD37732D1448224B00E1DD37 /* mainTableViewController.xib in Resources */,
+				DDF74CAD144E66860000B3BC /* detailTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD3772E0144805B100E1DD37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3772F5144805B100E1DD37 /* main.m in Sources */,
+				DD3772F9144805B100E1DD37 /* XmlAppTestAppDelegate.m in Sources */,
+				DD3772FF144805B100E1DD37 /* XmlAppTestViewController.m in Sources */,
+				DD37732014480ABE00E1DD37 /* hotel.m in Sources */,
+				DD377323144812E500E1DD37 /* XMLParser.m in Sources */,
+				DD37732C1448224B00E1DD37 /* mainTableViewController.m in Sources */,
+				DDF74CAC144E66860000B3BC /* detailTableViewController.m in Sources */,
+				DDF74CF6144E83B90000B3BC /* MapViewAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD3772F1144805B100E1DD37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD3772F2144805B100E1DD37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD3772FA144805B100E1DD37 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD3772FB144805B100E1DD37 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DD377300144805B100E1DD37 /* XmlAppTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD377301144805B100E1DD37 /* en */,
+			);
+			name = XmlAppTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD377303144805B100E1DD37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD377304144805B100E1DD37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD377306144805B100E1DD37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XmlAppTest/XmlAppTest-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "XmlAppTest/XmlAppTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD377307144805B100E1DD37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XmlAppTest/XmlAppTest-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "XmlAppTest/XmlAppTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD3772DE144805B000E1DD37 /* Build configuration list for PBXProject "XmlAppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD377303144805B100E1DD37 /* Debug */,
+				DD377304144805B100E1DD37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD377305144805B100E1DD37 /* Build configuration list for PBXNativeTarget "XmlAppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD377306144805B100E1DD37 /* Debug */,
+				DD377307144805B100E1DD37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD3772DB144805B000E1DD37 /* Project object */;
+}
